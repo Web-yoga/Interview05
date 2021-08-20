@@ -81,8 +81,8 @@ function init() {
      */
     function getCoordinates(time) {
 		let fi = time*6;
-		let x = Math.cos(fi)
-		let y = Math.sin(fi)
+		let x = Math.cos(fi);
+		let y = Math.sin(fi);
         return [x, y];
     }
 
