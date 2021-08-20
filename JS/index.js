@@ -1,3 +1,34 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@Web-yoga 
+Web-yoga
+/
+Interview05
+forked from MyITschool/Interview05
+0
+0
+1
+Code
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+Interview05/JS/index.js /
+@ITschoolKDF
+ITschoolKDF Initial commit
+Latest commit 74a82af 7 hours ago
+ History
+ 1 contributor
+68 lines (60 sloc)  2.5 KB
+  
 document.addEventListener('DOMContentLoaded', init);
 
 function init() {
@@ -49,8 +80,10 @@ function init() {
      * @returns {number[]} - Coordinates in Array
      */
     function getCoordinates(time) {
-        // TODO: implement body of this function
-        return [0.0, 1.0];
+		let fi = time*6;
+		let x = radius*Math.cos(fi)
+		let y = radius*Math.sin(fi)
+        return [x, y];
     }
 
     /**
@@ -66,3 +99,16 @@ function init() {
     const timer = setInterval(update, 10);
     // window.addEventListener('resize', update);
 }
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
