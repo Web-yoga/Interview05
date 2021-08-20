@@ -1,0 +1,14 @@
+#div1,
+#div2{
+	width: 200px;
+	padding: 25px;
+	float: left;
+}
+#div1 {
+	backgroung-color: LightBlue;
+	border: 1px solid Navy;
+}
+#div2 {
+	backgroung-color: IndianRed;
+	border: 1px solid Fuchsia;
+}
